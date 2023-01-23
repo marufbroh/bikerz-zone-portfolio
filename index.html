@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Bikerz Zone</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
@@ -12,108 +12,129 @@
 
 <body>
 
-    <!-- Navigation Section -->
+    <!-- Header Section -->
 
-    <nav class="navbar navbar-expand-md my-5">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand display-1" href="#">Bike Dekho</a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-                    <li class="nav-item me-2">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item me-2">
-                        <a class="nav-link" href="#">Shop</a>
-                    </li>
-                    <li class="nav-item me-2">
-                        <a class="nav-link">News</a>
-                    </li>
-                    <li class="nav-item me-2">
-                        <a class="nav-link">Contct</a>
-                    </li>
-                </ul>
-                <button class="btn btn-outline-success ms-2" type="button">Login</button>
-            </div>
-        </div>
-    </nav>
+    <header>
 
-    <section class="container header-bg">
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h2>Ride-on R15 V4 <br> with Smile</h2>
-                            <p>Amet minim mollit non deserunt ullamco <br>
-                                est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.
-                            </p>
-                            <button class="btn btn-primary">Purchase</button>
-                        </div>
+        <!-- Navigation -->
 
-                        <div class="col-md-6">
-                            <img class="img-fluid" src="images/bike-8.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h2>Ride-on R15 V4 <br> with Smile</h2>
-                            <p>Amet minim mollit non deserunt ullamco <br>
-                                est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.
-                            </p>
-                            <button class="btn btn-primary">Purchase</button>
-                        </div>
-
-                        <div class="col-md-6">
-                            <img class="img-fluid" src="images/bike-7.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h2>Ride-on R15 V4 <br> with Smile</h2>
-                            <p>Amet minim mollit non deserunt ullamco <br>
-                                est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.
-                            </p>
-                            <button class="btn btn-primary">Purchase</button>
-                        </div>
-
-                        <div class="col-md-6">
-                            <img class="img-fluid" src="images/bike-6.png" alt="">
-                        </div>
-                    </div>
+        <nav class="navbar navbar-expand-md my-5">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand display-1" href="#">
+                    <h1>Bike Dekho</h1>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mb-2 ms-auto fw-semibold mb-md-0">
+                        <li class="nav-item me-2">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link">News</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-success ms-5 fw-bold" type="button">Login</button>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </section>
+        </nav>
 
+        <!-- Banner Slider -->
+
+        <section class="container my-5">
+            <div id="carouselExample" class="carousel slide bg-danger bg-opacity-10 rounded p-5">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row gy-5">
+                            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                                <div>
+                                    <h2>Ride-on R15 V4 <br> with Smile</h2>
+                                    <p>Amet minim mollit non deserunt ullamco <br>
+                                        est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit
+                                        mollit.
+                                    </p>
+                                    <button class="btn btn-primary">Purchase</button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <img class="img-fluid" src="images/bike-1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row gy-5">
+                            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                                <div>
+                                    <h2>Ride-on R15 V4 <br> with Smile</h2>
+                                    <p>Amet minim mollit non deserunt ullamco <br>
+                                        est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit
+                                        mollit.
+                                    </p>
+                                    <button class="btn btn-primary">Purchase</button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <img class="img-fluid" src="images/bike-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row gy-5">
+                            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                                <div>
+                                    <h2>Ride-on R15 V4 <br> with Smile</h2>
+                                    <p>Amet minim mollit non deserunt ullamco <br>
+                                        est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit
+                                        mollit.
+                                    </p>
+                                    <button class="btn btn-primary">Purchase</button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <img class="img-fluid" src="images/bike-3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main Section -->
 
     <main class="container">
-        <section class="text-center">
+        <section class="text-center my-5">
             <h2>Fetured Bikes In This Year</h2>
-            <p>Best bike collection
-            </p>
-            <hr>
-            <div class="row">
+            <p>Best bike collection</p>
+            <hr class="w-25 border-danger mx-auto mb-5">
+            <div class="row gy-5">
                 <div class="col-md-4">
                     <img class="img-fluid" src="images/feature-bike.jpg" alt="">
                 </div>
                 <div class="col-md-4">
-                    <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                    <img class="img-fluid w-75" src="images/feature-bike.jpg" alt="">
                 </div>
                 <div class="col-md-4">
                     <img class="img-fluid" src="images/feature-bike.jpg" alt="">
@@ -123,7 +144,7 @@
         </section>
 
 
-        <section>
+        <section class="my-5">
             <h2 class="text-center">Latest News</h2>
             <div class="row">
                 <div class="col-md-4 mt-5">
@@ -192,13 +213,14 @@
                                 many more days you need
                                 to work to reach your financial
                                 goal for the month and year.</p>
-                                <div class="d-flex justify-content-center">
-                                    <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
-                                    <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
-                                    <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
-                                    <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
-                                    <img class="img-fluid" src="images/icons/star-regular.svg" alt="" style="width: 22.01px;">
-                                </div>
+                            <div class="d-flex justify-content-center">
+                                <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
+                                <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
+                                <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
+                                <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
+                                <img class="img-fluid" src="images/icons/star-regular.svg" alt=""
+                                    style="width: 22.01px;">
+                            </div>
                             <p>Regina Miles</p>
                             <p>Banker</p>
                         </div>
@@ -212,13 +234,14 @@
                                 many more days you need
                                 to work to reach your financial
                                 goal for the month and year.</p>
-                                <div class="d-flex justify-content-center">
-                                    <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
-                                    <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
-                                    <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
-                                    <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
-                                    <img class="img-fluid" src="images/icons/star-regular.svg" alt="" style="width: 22.01px;">
-                                </div>
+                            <div class="d-flex justify-content-center">
+                                <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
+                                <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
+                                <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
+                                <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
+                                <img class="img-fluid" src="images/icons/star-regular.svg" alt=""
+                                    style="width: 22.01px;">
+                            </div>
                             <p>Regina Miles</p>
                             <p>Banker</p>
                         </div>
@@ -232,13 +255,14 @@
                                 many more days you need
                                 to work to reach your financial
                                 goal for the month and year.</p>
-                                <div class="d-flex justify-content-center">
-                                    <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
-                                    <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
-                                    <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
-                                    <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
-                                    <img class="img-fluid" src="images/icons/star-regular.svg" alt="" style="width: 22.01px;">
-                                </div>
+                            <div class="d-flex justify-content-center">
+                                <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
+                                <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
+                                <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
+                                <img class="img-fluid" src="images/icons/star-solid.svg" alt="" style="width: 22.01px;">
+                                <img class="img-fluid" src="images/icons/star-regular.svg" alt=""
+                                    style="width: 22.01px;">
+                            </div>
                             <p>Regina Miles</p>
                             <p>Banker</p>
                         </div>
@@ -251,9 +275,9 @@
 
 
 
-        <section>
-            <h2 class="text-center">Frequently Asked Questions</h2>
-            <div class="row">
+        <section class="my-5">
+            <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+            <div class="row gy-5">
                 <div class="col-md-6">
                     <img class="img-fluid" src="images/faq.png" alt="">
                 </div>
@@ -311,8 +335,7 @@
     </main>
 
 
-    <div class="footer">
-
+    <footer class="footer bg-black p-5">
         <div class="container">
             <div class="row text-white">
                 <div class="col-md-6">
@@ -330,38 +353,24 @@
                         <li>Help</li>
                         <li>Privacy Policy</li>
                     </ul>
-                    <p>© 2020 bike. All rights reserved</p>
-    
+
                 </div>
-    
-    
-    
-                <div class="col-md-6">
-                    <h4>Get the App</h4>
-                    <img class="img-fluid" src="images/ios.png" alt=""><br>
-                    <img class="img-fluid" src="images/android.png" alt="">
+
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div>
+                        <h4>Get the App</h4>
+                        <img class="img-fluid w-50 my-3" src="images/ios.png" alt=""><br>
+                        <img class="img-fluid w-50" src="images/android.png" alt="">
+                    </div>
                 </div>
+                <p class="my-3">© 2020 bike. All rights reserved</p>
             </div>
         </div>
-
-    </div>
-    
+    </footer>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- bootstrap js -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
